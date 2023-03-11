@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/thepremiumcoder/Operationalize-DevOps-for-Machine-Learning-Microservice-API/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/thepremiumcoder/Operationalize-DevOps-for-Machine-Learning-Microservice-API/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/thepremiumcoder./tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/thepremiumcoder./tree/main)
 
 ## Project Overview
 
@@ -21,19 +21,19 @@ Your project goal is to operationalize this working, machine learning microservi
 ---
 ### Short description of folders and files in the repo
 
-* [.circleci](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/.circleci): Directory for the CircleCI build server
-* [model_data](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/model_data) : Directory for the pretrained `sklearn` model and housing csv files
-* [output_txt_files](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/output_txt_files): Directory for the output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
-* [app.py](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/app.py) : contains the flask app
-* [Dockerfile](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/app.py): Instructions to containerize the application
-* [Makefile](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/Makefile) : Instructions for environment setup and lint tests
-* [requirements.txt](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/requirements.txt): list of required dependencies
-* [run_docker.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/run_docker.sh): bash script to build Docker Image and run the application in a Docker container
-* [upload_docker.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/upload_docker.sh): bash script to upload the built Docker Image to Dockerhub
-* [run_kubernetes.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
-* [make_prediction.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
-* [README.md](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/README.md): README file
-* [README.md](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/commands.txt): Useful commands
+* [.circleci](./.circleci): Directory for the CircleCI build server
+* [model_data](./model_data) : Directory for the pretrained `sklearn` model and housing csv files
+* [output_txt_files](./output_txt_files): Directory for the output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
+* [app.py](./app.py) : contains the flask app
+* [Dockerfile](./app.py): Instructions to containerize the application
+* [Makefile](./Makefile) : Instructions for environment setup and lint tests
+* [requirements.txt](./requirements.txt): list of required dependencies
+* [run_docker.sh](./run_docker.sh): bash script to build Docker Image and run the application in a Docker container
+* [upload_docker.sh](./upload_docker.sh): bash script to upload the built Docker Image to Dockerhub
+* [run_kubernetes.sh](./run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
+* [make_prediction.sh](./make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
+* [README.md](./README.md): README file
+* [README.md](./commands.txt): Useful commands
 
 ---
 
