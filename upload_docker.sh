@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=thepremiumcoder/udc-devops-ml-microservice-api-project
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
+docker tag udc-devops-ml-microservice-api-project $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath:latest

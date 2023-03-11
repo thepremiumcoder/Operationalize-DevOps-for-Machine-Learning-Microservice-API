@@ -1,1 +1,17 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) voclabs:~/environment/Operationalize-DevOps-for-Machine-Learning-Microservice-API (main) $ bash run_kubernetes.sh
+Error from server (AlreadyExists): pods "udc-devops-ml-microservice-api-project" already exists
+NAME                                     READY   STATUS    RESTARTS   AGE
+udc-devops-ml-microservice-api-project   1/1     Running   0          102s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+
+(.devops) voclabs:~/environment/Operationalize-DevOps-for-Machine-Learning-Microservice-API (main) $ bash run_kubernetes.sh
+Error from server (AlreadyExists): pods "udc-devops-ml-microservice-api-project" already exists
+NAME                                     READY   STATUS    RESTARTS   AGE
+udc-devops-ml-microservice-api-project   1/1     Running   0          102s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
