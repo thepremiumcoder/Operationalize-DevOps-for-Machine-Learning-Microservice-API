@@ -1,4 +1,5 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/thepremiumcoder./tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/thepremiumcoder./tree/main)
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/thepremiumcoder/Operationalize-DevOps-for-Machine-Learning-Microservice-API/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/thepremiumcoder/Operationalize-DevOps-for-Machine-Learning-Microservice-API/tree/main)
 
 ## Project Overview
 
