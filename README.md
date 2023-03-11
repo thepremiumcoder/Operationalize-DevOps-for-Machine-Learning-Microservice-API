@@ -17,9 +17,23 @@ Your project goal is to operationalize this working, machine learning microservi
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
+---
+### Short description of folders and files in the repo
+
+* [.circleci](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/.circleci): Directory for the CircleCI build server
+* [model_data](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/model_data) : Directory for the pretrained `sklearn` model and housing csv files
+* [output_txt_files](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/output_txt_files): Directory for the output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
+* [app.py](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/app.py) : contains the flask app
+* [Dockerfile](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/app.py): Instructions to containerize the application
+* [Makefile](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/Makefile) : Instructions for environment setup and lint tests
+* [requirements.txt](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/requirements.txt): list of required dependencies
+* [run_docker.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/run_docker.sh): bash script to build Docker Image and run the application in a Docker container
+* [upload_docker.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/upload_docker.sh): bash script to upload the built Docker Image to Dockerhub
+* [run_kubernetes.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
+* [make_prediction.sh](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
+* [README.md](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/README.md): README file
+* [README.md](/Operationalize-DevOps-for-Machine-Learning-Microservice-API/commands.txt): Useful commands
 
 ---
 
@@ -48,3 +62,7 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+
+

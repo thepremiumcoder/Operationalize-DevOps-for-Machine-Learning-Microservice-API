@@ -1,0 +1,58 @@
+
+git clone https://github.com/thepremiumcoder/Operationalize-DevOps-for-Machine-Learning-Microservice-API.git
+
+cd Operationalize-DevOps-for-Machine-Learning-Microservice-API/
+
+ll
+
+bash resize.sh 120
+
+df -h
+
+docker -v
+
+git pull
+
+make setup
+
+source ~/.devops/bin/activate
+
+ make install
+ 
+ make lint
+ 
+ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+ 
+ sudo install minikube-linux-amd64 /usr/local/bin/minikube
+ 
+ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+ 
+ chmod +x kubectl
+ 
+ mv ./kubectl /usr/local/bin/kubectl
+ 
+ sudo mv ./kubectl /usr/local/bin/kubectl
+ 
+ docker --version
+ 
+ docker version
+ 
+ make lint
+ 
+ bash run docker.sh
+ 
+ make setup
+ 
+ bash ./make_prediction.sh 
+ 
+ bash run_docker.sh
+ 
+ bash ./make_prediction.sh
+ 
+ touch docker_out.txt
+ 
+ minikube start
+ 
+ bash ./make_prediction.sh
+ 
+ touch kubernetes_out.txt
