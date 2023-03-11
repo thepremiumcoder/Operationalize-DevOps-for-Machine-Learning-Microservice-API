@@ -33,7 +33,7 @@ Your project goal is to operationalize this working, machine learning microservi
 * [run_kubernetes.sh](./run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
 * [make_prediction.sh](./make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
 * [README.md](./README.md): README file
-* [README.md](./commands.txt): Useful commands
+* [commands.txt](./commands.txt): Useful commands
 
 ---
 
