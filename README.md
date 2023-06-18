@@ -9,7 +9,7 @@ Using a pre-trained, `sklearn` model that has been trained to predict housing pr
 
 ### Project Tasks
 
-The project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. And also do the following:
+The project goal is to create a CI/CD Pipeline to operationalize this working machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. And also do the following:
 * Test the project code using linting
 * Complete a Dockerfile to containerize this application
 * Deploy the containerized application using Docker and make a prediction
